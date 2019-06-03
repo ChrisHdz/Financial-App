@@ -1,6 +1,11 @@
 #toCenter{
     text-align: center;
 }
+input{
+    border-radius: 5px;
+    border-color: lightgray;
+    text-align: center;
+}
 
 h2{
     padding-top: 20px;

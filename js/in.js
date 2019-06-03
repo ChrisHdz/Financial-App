@@ -50,4 +50,28 @@ calcBtn.addEventListener('click', function () {
     win.show()
   })
 
+  const budgetBtn = document.getElementById('col4')
+
+  budgetBtn.addEventListener('click', function () {
+    const modalPath = path.join('file://', __dirname, 'budgetTraker.html')
+    let win = new BrowserWindow({frame:false, icon: 'logo.png' ,width: 900, height: 600,webPreferences: {
+      nodeIntegration: true
+  } })
+  win.on('close', (event) => {
+    if (win) {
+      event.preventDefault()
+      event.returnValue = false
+      win.focus()
+    } else {
+      event.returnValue = true
+    }
+    
+  })
+  win.on('closed', () => {
+    win = null
+  })
+    win.loadURL(modalPath)
+    win.show()
+  })
+
   
