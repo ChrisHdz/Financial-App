@@ -1,0 +1,50 @@
+body{
+    background-color: whitesmoke;
+}
+
+#row{
+    background-color:white;
+    padding: 20px;
+    border-bottom: 3px solid darkblue;
+}
+#row2{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+}
+#col2:hover{
+  opacity: 0.5;
+}
+
+#col2{
+    cursor: pointer;
+    transition: .5s ease;
+    text-align: center;
+}
+#col3:hover{
+    opacity: 0.5;
+  }
+  
+#col3{
+      cursor: pointer;
+      transition: .5s ease;
+      text-align: center;
+  }
+
+#col4:hover{
+    opacity: 0.5;
+  }
+  
+#col4{
+      cursor: pointer;
+      transition: .5s ease;
+      text-align: center;
+  }
+  
+
+#footer{
+    padding-top: 120px;
+    text-align: center;
+    opacity: 0.5;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./assets/autoCalc.css">
+</head>
+<body>
+        <div id="toCenter">
+                <h2>Car Payment Calculator</h2>
+                <form id="calc-elements" action="">
+                        <label>APR%: <br> <input type="text" id="interest" name="APR"/></label><br>
+                        <label>Loan Term(Months): <br><input type="text" id="months" name="APR"/></label><br>
+                        <label>Loan Amount:<br> <input type="text" id="amount" name="amt"/></lablel><br>
+                        <label>Down Payment:<br> <input type="text" id="down" name="dwn"/></lablel><br>
+                        <input type="button" id="submit" value="Submit" />
+                        <input type="reset" id="rst" value="Reset Form" /><br>
+                        <input type="text" id="output" name="mPmt"/>
+                      </form>
+                      <div><button id="closeBtn">Close</button></div>
+                    </div>
+         <script src="autoCalc.js"></script>
+</body>
+</html>

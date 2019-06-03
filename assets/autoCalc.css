@@ -1,0 +1,52 @@
+#toCenter{
+    text-align: center;
+}
+
+h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom:3px solid darkblue;
+}
+
+#calc-elements{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#btn{
+    margin-top: 20px;
+}
+
+#submit{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: darkblue;
+    
+}
+
+#rst{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: darkblue;
+}
+
+#output{
+    margin-top: 20px;
+    border:none;
+    color: darkblue;
+    font-size: 30px;
+}
+
+#closeBtn{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: darkblue;
+    
+}
