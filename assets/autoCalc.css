@@ -1,11 +1,19 @@
+body{
+    background-image: linear-gradient(#076585, lightblue);
+}
+
 #toCenter{
     text-align: center;
+    height: 100vh;
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 h2{
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom:3px solid darkblue;
+    border-bottom:3px solid #076585;
 }
 
 #calc-elements{
@@ -23,7 +31,7 @@ h2{
     border-radius: 10px;
     margin-top: 20px;
     color: white;
-    background-color: darkblue;
+    background-color: #076585;
     
 }
 
@@ -32,13 +40,13 @@ h2{
     border: none;
     border-radius: 10px;
     color: white;
-    background-color: darkblue;
+    background-color: lightblue;
 }
 
 #output{
     margin-top: 20px;
     border:none;
-    color: darkblue;
+    color: green;
     font-size: 30px;
 }
 
@@ -47,6 +55,6 @@ h2{
     border: none;
     border-radius: 10px;
     color: white;
-    background-color: darkblue;
+    background-color: lightblue;
     
 }

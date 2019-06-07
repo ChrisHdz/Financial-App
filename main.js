@@ -6,6 +6,7 @@ const electron = require('electron')
 // be closed automatically when the JavaScript object is garbage collected.
 let win
 
+
 function createWindow () {
   // Create the browser window.
   win = new BrowserWindow({
@@ -16,6 +17,7 @@ function createWindow () {
       nodeIntegration: true
     }
   })
+  
 
 
   // and load the index.html of the app.
@@ -32,6 +34,8 @@ function createWindow () {
     win = null
   }) 
 }
+
+
 
 
 // This method will be called when Electron has finished

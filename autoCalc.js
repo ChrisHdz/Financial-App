@@ -20,7 +20,7 @@ function getValues()
     months = document.getElementById('months').value
     down = document.getElementById('down').value
     annInterest = document.getElementById('interest').value
-    monInt = annInterest / 1200,
+    monInt = annInterest / 1200
   mPmt = calculatePayment();
   document.getElementById("output").value = "$" + mPmt.toFixed(2);
 };

@@ -7,7 +7,7 @@ const calcBtn = document.getElementById('col2')
 calcBtn.addEventListener('click', function () {
     const modalPath = path.join('file://', __dirname, 'calc.html')
     let win = new BrowserWindow({frame:false, icon: 'logo.png' ,width: 900, height: 600,webPreferences: {
-      nodeIntegration: true
+      nodeIntegration: true, alwaysOnTop:true
   } })
   win.on('close', (event) => {
     if (win) {
