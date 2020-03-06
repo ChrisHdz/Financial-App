@@ -2,17 +2,17 @@
 <html>
 <head>
 
-    <title>Financial Calculator</title>
+    <title>Financial App</title>
 
     <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/index.css">
     <link rel="stylesheet" href="./assets/calc.css">
-    
-    
+
+
 </head>
 <body>
     <div id="row">
-        
+
         <div id="col1"><h1>Fiancial App</h1></div>
     </div>
     <!-- <div id="row2">
@@ -27,21 +27,24 @@
 
         <div class="sidebar">
             <div class="side_menu">
-                <button id="active">Mortage</button><br>
-                <button>Car</button>
+              <button class="btn active" id="mortage"> <h2>Mortgage</h2> </button><br>
+              <button class="btn" id="car"> <h2>Car</h2> </button>
+              <button class="btn" id=""> <h2>Loading..</h2> </button>
             </div>
         </div>
 
         <div class="mainview">
                 <div id="toCenter">
-                      
+
                         <form id="calc-elements" action="">
-                                <label>APR%: <br> <input type="text" id="apr" name="APR"/></label><br>
-                                <label>Loan Term(Months): <br><input type="text" id="trm" name="APR"/></label><br>
-                                <label>Loan Amount:<br> <input type="text" id="amt" name="amt"/></lablel><br>
-                                <input type="button" id="sbt" value="Submit" />
-                                <input type="reset" id="rst" value="Reset Form" /><br>
-                                <input type="text" id="pmt" name="mPmt"/>
+
+                            <input type="text" id="pmt" name="mPmt"/><br><br><br>
+                            <input type="number" id="apr" min=".01" step=".01"name="APR"/><br><label>APR%: </label><br>
+                              <br> <input type="number" id="trm" step="1" min="1" name="APR"/> <br> <label>Loan Term(Months): </label><br>
+                              <br> <input type="number" id="amt" min="1"step="1"name="amt"/> <br> <label>Loan Amount:</lablel><br>
+                              <br><br>  <input type="button" id="sbt" value="Submit" />
+                                <input type="reset" id="rst" value="Reset" /><br>
+
                               </form>
                             </div>
                  <script src="./js/calc.js"></script>
@@ -50,9 +53,20 @@
     </div>
     <div>
         <p id="footer">Brought to you by H.Corp</p>
->>>>>>> 7652c333178f54564e55032b8c3045292858312b
     </div>
     <script src="./js/in.js"></script>
+    <script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("side_menu");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
 </body>
 
 </html>

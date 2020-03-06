@@ -12,13 +12,14 @@ function createWindow () {
   win = new BrowserWindow({
     width: 1100,
     height: 800,
+    resizable: false,
     icon:__dirname+'/img/icon.png',
     webPreferences: {
-      nodeIntegration: true
+    nodeIntegration: true
     }
   })
-  
 
+  win.removeMenu()
 
   // and load the index.html of the app.
   win.loadFile('index.html')
@@ -32,7 +33,7 @@ function createWindow () {
     // in an array if your app supports multi windows, this is the time
     // when you should delete the corresponding element.
     win = null
-  }) 
+  })
 }
 
 

@@ -1,23 +1,16 @@
 body{
-<<<<<<< HEAD
-    background-color: aliceblue;
     color: gray;
-=======
-    /* background-image: linear-gradient(#076585, white); */
     background-color: #2e2e2e;
     color: white;
->>>>>>> 7652c333178f54564e55032b8c3045292858312b
     height: 100vh;
 }
 
 #row{
-<<<<<<< HEAD
-    background-color:aliceblue;
-=======
+  text-align: center;
+    width: 30%;
     background-color:#2e2e2e;
->>>>>>> 7652c333178f54564e55032b8c3045292858312b
-    padding: 20px;
-    border-bottom: 1px solid grey;
+    padding: 20px 10px 20px 10px;
+
 }
 #row2{
     padding-top: 80px;
@@ -45,7 +38,7 @@ h1{
 #col3:hover{
     opacity: 0.5;
   }
-  
+
 #col3{
       cursor: pointer;
       transition: .5s ease;
@@ -55,41 +48,53 @@ h1{
 #col4:hover{
     opacity: 0.5;
   }
-  
+
 #col4{
       cursor: pointer;
       transition: .5s ease;
       text-align: center;
   }
-  
+
 .content{
+    border-top: 1px solid grey;
   display: flex;
 }
 .sidebar{
-  height: 80vh;
+
+  height: 50vh;
   width: 20%;
+  margin: auto;
 }
 .mainview{
+  border-left: 1px solid grey;
   width: 70%;
+  visibility: visible;
 }
 .side_menu{
-
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }
 button{
-  width: 80%;
+  border-radius: 10px;
+  width: 100%;
   margin: auto;
+  text-align: center;
+  margin-top: 30px;
   margin-bottom: 20px;
   background-color: grey;
   color: black;
   border: none;
   padding: 10px;
 }
-#active{
+
+.active,button:hover{
   background-color: lightblue;
 }
 #footer{
+    margin-top: 50px;
     padding-top: 30px;
     text-align: center;
-    opacity: 0.5;
+    opacity: 0.3;
     color: grey;
 }

@@ -2,27 +2,30 @@
 body{
     background-color: aliceblue;
 }
-=======
-
->>>>>>> 7652c333178f54564e55032b8c3045292858312b
 #toCenter{
-    height: 100vh;
+    height: 70vh;
     text-align: center;
     background-color: #2e2e2e;
     margin-left: 25%;
     margin-right: 25%;
 }
+label{
+  font-size: 20px;
+  color: grey;
+}
 input{
+    font-size: 20px;
+  color: lightblue;
     border-style: none none solid none;
-    border-bottom:   1px  solid grey;
+    border-bottom:   1px  solid lightblue;
     background-color: #2e2e2e;
     text-align: center;
 }
 
 h2{
+      font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom:3px solid #076585;
 }
 
 #calc-elements{
@@ -31,34 +34,38 @@ h2{
 }
 
 #btn{
+      width: 100%;
     margin-top: 20px;
 }
 
 #pmt{
+      width: 100%;
     margin-top: 20px;
 }
 
 #sbt{
+  border-radius: 10px;
     padding: 5px;
-    border: none;
-    border-radius: 10px;
+    margin-right: 5px;
+    border: 2px solid lightgreen;;
     margin-top: 20px;
-    color: white;
-    background-color: #076585;
-    
+    color: black;
+    background-color: lightgreen;
+
 }
 
 #rst{
-    padding: 5px;
-    border: none;
     border-radius: 10px;
-    color: white;
-    background-color: lightblue;
+    padding: 5px;
+    border: 2px solid grey;
+    color: grey;
+    background-color: none;
 }
 
 #pmt{
+      width: 100%;
     border:none;
-    color: green;
+    color: lightblue;
     font-size: 30px;
 }
 
@@ -68,5 +75,5 @@ h2{
     border-radius: 10px;
     color: white;
     background-color: lightblue;
-    
+
 }

@@ -21,7 +21,7 @@ function getValues()
   amt = document.getElementById("amt").value;
   apr /= 1200;
   mPmt = calculatePayment();
-  document.getElementById("pmt").value = "$" + mPmt.toFixed(2);
+  document.getElementById("pmt").value = "$" + mPmt.toFixed(2) + " / month";
 };
 
 function calculatePayment()
@@ -39,18 +39,18 @@ closeBtn.addEventListener('click', function () {
 })
 
 function forceClose(window) {
-  
+
     // try close first
     window.close()
-    
+
     // force with destroy
     if(!window.closed) {
       window.destroy()
     }
-    
+
     //just logging out the event
     window.on('closed', (e) => {
       console.log(e)
     })
-    
+
   }
