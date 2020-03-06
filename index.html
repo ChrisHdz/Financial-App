@@ -6,6 +6,8 @@
 
     <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/index.css">
+    <link rel="stylesheet" href="./assets/calc.css">
+    
     
 </head>
 <body>
@@ -13,10 +15,42 @@
         
         <div id="col1"><h1>Fiancial App</h1></div>
     </div>
-    <div id="row2">
+    <!-- <div id="row2">
         <div id="col2"><img src="./img/col3.png" alt="LOADING.."><p>Mortgage Calculator</p></div>
         <div id="col3"><img src="./img/col4.png" alt="LOADING.."> <p>Car Payment Calculator</p></div>
+<<<<<<< HEAD
         <div id="col4"><img src="./img/col3-4-5.png" alt="LOADING.."> <p>Credit Score Tips</p></div>
+=======
+        <div id="col4"><img src="./img/col3-4-5.png" alt="LOADING.."> <p>Loading..</p></div>
+    </div> -->
+    <div class="content">
+
+        <div class="sidebar">
+            <div class="side_menu">
+                <button id="active">Mortage</button><br>
+                <button>Car</button>
+            </div>
+        </div>
+
+        <div class="mainview">
+                <div id="toCenter">
+                      
+                        <form id="calc-elements" action="">
+                                <label>APR%: <br> <input type="text" id="apr" name="APR"/></label><br>
+                                <label>Loan Term(Months): <br><input type="text" id="trm" name="APR"/></label><br>
+                                <label>Loan Amount:<br> <input type="text" id="amt" name="amt"/></lablel><br>
+                                <input type="button" id="sbt" value="Submit" />
+                                <input type="reset" id="rst" value="Reset Form" /><br>
+                                <input type="text" id="pmt" name="mPmt"/>
+                              </form>
+                            </div>
+                 <script src="./js/calc.js"></script>
+        </div>
+
+    </div>
+    <div>
+        <p id="footer">Brought to you by H.Corp</p>
+>>>>>>> 7652c333178f54564e55032b8c3045292858312b
     </div>
     <script src="./js/in.js"></script>
 </body>

@@ -1,16 +1,21 @@
+<<<<<<< HEAD
 body{
     background-color: aliceblue;
 }
+=======
+
+>>>>>>> 7652c333178f54564e55032b8c3045292858312b
 #toCenter{
     height: 100vh;
     text-align: center;
-    background-color: white;
+    background-color: #2e2e2e;
     margin-left: 25%;
     margin-right: 25%;
 }
 input{
-    border-radius: 5px;
-    border-color: lightgray;
+    border-style: none none solid none;
+    border-bottom:   1px  solid grey;
+    background-color: #2e2e2e;
     text-align: center;
 }
 
