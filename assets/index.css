@@ -1,13 +1,14 @@
 body{
-    background-image: linear-gradient(#076585, white);
+    /* background-image: linear-gradient(#076585, white); */
+    background-color: #2e2e2e;
     color: white;
     height: 100vh;
 }
 
 #row{
-    background-color:lightblue;
+    background-color:#2e2e2e;
     padding: 20px;
-    border-bottom: 3px solid 076585;
+    border-bottom: 1px solid grey;
 }
 #row2{
     padding-top: 80px;
@@ -18,7 +19,10 @@ body{
 }
 
 #col1{
-    color: white;
+    color: lightblue;
+}
+h1{
+  color: lightblue;
 }
 #col2:hover{
   opacity: 0.5;
@@ -49,10 +53,34 @@ body{
       text-align: center;
   }
   
+.content{
+  display: flex;
+}
+.sidebar{
+  height: 80vh;
+  width: 20%;
+}
+.mainview{
+  width: 70%;
+}
+.side_menu{
 
+}
+button{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: grey;
+  color: black;
+  border: none;
+  padding: 10px;
+}
+#active{
+  background-color: lightblue;
+}
 #footer{
-    padding-top: 100px;
+    padding-top: 30px;
     text-align: center;
     opacity: 0.5;
-    color: #076585;
+    color: grey;
 }
