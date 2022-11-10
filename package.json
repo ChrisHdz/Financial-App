@@ -7,7 +7,7 @@
     "asn1": "^0.2.4",
     "debug": "^3.2.6",
     "ecc-jsbn": "^0.1.2",
-    "electron": "^5.0.2",
+    "electron": "^18.3.7",
     "electron-window-manager": "^1.0.6",
     "fd-slicer": "^1.0.1",
     "find-up": "^1.1.2",
