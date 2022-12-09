@@ -35,7 +35,7 @@
     "process-nextick-args": "^2.0.0",
     "psl": "^1.1.32",
     "punycode": "^2.1.1",
-    "qs": "^6.5.2",
+    "qs": "^6.5.3",
     "readable-stream": "^1.1.14",
     "repeating": "^2.0.1",
     "resolve": "^1.11.0",
